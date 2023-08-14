@@ -1,0 +1,25 @@
+/* Large display 1200px and above */
+@media screen and (min-width: 1200px) {
+  /* write code here */
+}
+/* Portrait tablets 768px and above */
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  /* write code here */
+}
+/* Phones to tablets 767px and below */
+@media screen and (max-width: 768px) {
+  /* write code here */
+  .container {
+    padding: 0px 20px;
+  }
+  .account-page {
+    grid-template-columns: 1fr;
+  }
+}
+/* Phones 480px and below */
+@media screen and (max-width: 480px) {
+  /* write code here */
+  .container {
+    padding: 0px 15px;
+  }
+}/*# sourceMappingURL=responsive-main.css.map */
