@@ -78,4 +78,23 @@ ul li a {
 }
 .account-page .page-title {
   padding-bottom: 48px;
+}
+
+.card-content .card-title {
+  padding-bottom: 18px;
+}
+.card-content .card-body {
+  background: #f6f2ec;
+  padding: 45px;
+  margin-bottom: 60px;
+}
+.card-content .button-group {
+  margin-top: 38px;
+}
+.card-content .button-group a {
+  margin-right: 24px;
+}
+
+.card-content.half {
+  max-width: 50%;
 }/*# sourceMappingURL=main.css.map */

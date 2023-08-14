@@ -16,12 +16,10 @@
   }
   .account-page {
     grid-template-columns: 1fr;
- 
-}
-
-
-
-
+  }
+  .card-content.half {
+    max-width: 100%;
+  }
 }
 
 /* Phones 480px and below */
@@ -29,5 +27,8 @@
   /* write code here */
   .container {
     padding: 0px 15px;
+  }
+  .card-content.half {
+    max-width: 100%;
   }
 }
