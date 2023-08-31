@@ -31,4 +31,8 @@
   .card-content.half {
     max-width: 100%;
   }
+  .col5-md3 {
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

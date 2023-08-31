@@ -30,6 +30,15 @@ ul li a {
   text-decoration-line: underline;
 }
 
+.body-16-300 {
+  color: #000;
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .body-18 {
   font-size: 18px;
   font-style: normal;
@@ -52,14 +61,42 @@ ul li a {
   line-height: normal;
 }
 
+.btn-filled {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: #fff;
+  background: #6D6A68;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0px 50px;
 }
 
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-84 {
+  padding-bottom: 84px;
+}
+
 .grid {
   display: grid;
+}
+
+.col2-md1 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.col5-md3 {
+  gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .account-page {

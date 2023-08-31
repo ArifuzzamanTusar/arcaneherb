@@ -7,6 +7,25 @@
     <title>Orders & Returns</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive-main.css">
+
+    <style>
+        /* <!-- order pages css  --> */
+        .order-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-content .card-body.order {
+
+            padding: 20px;
+        }
+
+        .border-left {
+            border-left: 1px solid #000;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,8 +38,10 @@
                     <nav class="account-menu">
                         <ul>
                             <li class="ac-menu-item"><a class="body-20" href="profile.html">Profile</a></li>
-                            <li class="ac-menu-item active"><a class="body-20" href="orders-and-returns.html">Orders & Returns</a></li>
-                            <li class="ac-menu-item"><a class="body-20" href="active-subscriptions.html">Subscription</a></li>
+                            <li class="ac-menu-item active"><a class="body-20" href="orders-and-returns.html">Orders &
+                                    Returns</a></li>
+                            <li class="ac-menu-item"><a class="body-20"
+                                    href="active-subscriptions.html">Subscription</a></li>
                             <li class="ac-menu-item"><a class="body-20" href="address-book.html">Address book</a></li>
                             <li class="ac-menu-item"><a class="body-20" href="favorites.html">Favorites</a></li>
                             <li class="ac-menu-item"><a class="body-20" href="payments.html">Payments</a></li>
@@ -37,7 +58,132 @@
 
                         <!-- Template Starts Here | Template for the "Profile" -->
                         <div class="orders-and-returns">
-                            //will add content 
+
+                            <div class="order-items">
+                                <!-- item loop  -->
+                                <div class="order-item pb-84">
+                                    <div class=" order-title">
+                                        <div class="order-number">
+                                            <h3 class="heading-3-title">Order #123456789</h3>
+                                        </div>
+                                        <div class="order-again text-right">
+                                            <a href="#" class="btn-filled">Order again</a>
+                                        </div>
+                                    </div>
+                                    <div class="pb-24">
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="body-18 pb-24">Shipping Address | Mastercard *******125</p>
+                                        <div class="card-body order grid col2-md1">
+                                            <div class="inner body-18">
+                                                <p class="body-16-300">Order Date </p>
+                                                <p class="pb-24"> March 3, 2023</p>
+                                                <p class="body-16-300">Shipping Address</p>
+                                                <p> 123 Address Ave</p>
+
+                                            </div>
+                                            <div class="inner body-18 border-left">
+                                                <p class="body-16-300">Order Total </p>
+                                                <p class="pb-24"> $54.25</p>
+                                                <p class="body-16-300">Order Status</p>
+                                                <p> Shipped</p>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="body-18">Items</p>
+                                    </div>
+                                    <div class="grid col5-md3">
+                                        <div class="order-product">
+                                            <img src="/images/product.png" width="100%" alt="" srcset="">
+                                            <p class="body-18 pb-24">Product Name</p>
+                                            <p class="body-16-300 ">Quantity: 2</p>
+                                            <p class="body-16-300 ">Price: $25</p>
+                                        </div>
+                                        <div class="order-product">
+                                            <img src="/images/product.png" width="100%" alt="" srcset="">
+                                            <p class="body-18 pb-24">Product Name</p>
+                                            <p class="body-16-300 ">Quantity: 2</p>
+                                            <p class="body-16-300 ">Price: $25</p>
+                                        </div>
+                                        <div class="order-product">
+                                            <img src="/images/product.png" width="100%" alt="" srcset="">
+                                            <p class="body-18 pb-24">Product Name</p>
+                                            <p class="body-16-300 ">Quantity: 2</p>
+                                            <p class="body-16-300 ">Price: $25</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- item loop ends -->
+                                <!-- item loop  -->
+                                <div class="order-item pb-84">
+                                    <div class=" order-title">
+                                        <div class="order-number">
+                                            <h3 class="heading-3-title">Order #123456789</h3>
+                                        </div>
+                                        <div class="order-again text-right">
+                                            <a href="#" class="btn-filled">Order again</a>
+                                        </div>
+                                    </div>
+                                    <div class="pb-24">
+
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="body-18 pb-24">Shipping Address | Mastercard *******125</p>
+                                        <div class="card-body order grid col2-md1">
+                                            <div class="inner body-18">
+                                                <p class="body-16-300">Order Date </p>
+                                                <p class="pb-24"> March 3, 2023</p>
+                                                <p class="body-16-300">Shipping Address</p>
+                                                <p> 123 Address Ave</p>
+
+                                            </div>
+                                            <div class="inner body-18 border-left">
+                                                <p class="body-16-300">Order Total </p>
+                                                <p class="pb-24"> $54.25</p>
+                                                <p class="body-16-300">Order Status</p>
+                                                <p> Shipped</p>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="body-18">Items</p>
+                                    </div>
+                                    <div class="grid col5-md3">
+                                        <div class="order-product">
+                                            <img src="/images/product.png" width="100%" alt="" srcset="">
+                                            <p class="body-18 pb-24">Product Name</p>
+                                            <p class="body-16-300 ">Quantity: 2</p>
+                                            <p class="body-16-300 ">Price: $25</p>
+                                        </div>
+                                        <div class="order-product">
+                                            <img src="/images/product.png" width="100%" alt="" srcset="">
+                                            <p class="body-18 pb-24">Product Name</p>
+                                            <p class="body-16-300 ">Quantity: 2</p>
+                                            <p class="body-16-300 ">Price: $25</p>
+                                        </div>
+                                        <div class="order-product">
+                                            <img src="/images/product.png" width="100%" alt="" srcset="">
+                                            <p class="body-18 pb-24">Product Name</p>
+                                            <p class="body-16-300 ">Quantity: 2</p>
+                                            <p class="body-16-300 ">Price: $25</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- item loop ends -->
+
+
+                            </div>
+
                         </div>
 
 
